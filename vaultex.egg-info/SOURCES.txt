@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+vaultex/__init__.py
+vaultex/__main__.py
+vaultex/app.py
+vaultex/core.py
+vaultex.egg-info/PKG-INFO
+vaultex.egg-info/SOURCES.txt
+vaultex.egg-info/dependency_links.txt
+vaultex.egg-info/entry_points.txt
+vaultex.egg-info/requires.txt
+vaultex.egg-info/top_level.txt

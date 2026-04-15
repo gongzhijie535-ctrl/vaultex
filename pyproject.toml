@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vaultex"
+version = "0.1.0"
+description = "Extract and merge files from a folder with precision — a lightweight GUI tool for developers and LLM workflows."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Ian Gong", email = "gongzhijie535@gmail.com" }
+]
+keywords = ["file", "extract", "merge", "llm", "gradio", "code", "tools"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Utilities",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "gradio>=4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/gongzhijie535-ctrl/vaultex"
+Repository = "https://github.com/gongzhijie535-ctrl/vaultex"
+Issues = "https://github.com/gongzhijie535-ctrl/vaultex"
+
+[project.scripts]
+vaultex = "vaultex.app:launch"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["vaultex*"]
