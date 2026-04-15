@@ -6,6 +6,8 @@ Vaultex is a lightweight GUI tool that lets you **scan a folder and merge all ma
 
 The idea is simple: when you're working with a codebase or a collection of files, you often need to quickly gather *specific types* of files across nested folders. Vaultex gives you precise control over what gets included, what gets skipped, and how the result is organized — all through a clean interface.
 
+![demo](assets/demo.gif)
+
 ---
 
 ## ✨ Features
